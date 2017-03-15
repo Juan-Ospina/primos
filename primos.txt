@@ -54,3 +54,7 @@ namespace NnumerosPrimos
                     Console.WriteLine("ingrese numeros positivos");
                 }
             }
+            Console.ReadLine();
+        }
+    }
+}
