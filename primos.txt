@@ -10,3 +10,5 @@ namespace NnumerosPrimos
         {
             int num, i, n = 4, cont = 2;
             string cad = "";           
+            Console.WriteLine("ingrese un numero");
+            num = Convert.ToInt32(Console.ReadLine());
