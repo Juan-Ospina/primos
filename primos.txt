@@ -38,3 +38,19 @@ namespace NnumerosPrimos
                 }
                 Console.WriteLine(cad);
             }
+            else {
+                if (num > 0)
+                {
+                    if (num == 1)
+                    {
+                        Console.WriteLine("es primo 2");
+                    }
+                    else
+                    {
+                        Console.WriteLine("es primo 2, 3");
+                    }
+                }
+                else {
+                    Console.WriteLine("ingrese numeros positivos");
+                }
+            }
